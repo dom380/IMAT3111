@@ -82,7 +82,7 @@ void SceneSpotLight::setLightParams(QuatCamera camera)
 	prog.setUniform("LightPosition", worldLight);
 	prog.setUniform("targetDirection", glm::vec3(0.0, -1.0, 0.0));
 	prog.setUniform("cutoffAngle", glm::cos(glm::radians(20.0f)));
-	prog.setUniform("outerCutoffAngle", glm::cos(glm::radians(20.f)));
+	prog.setUniform("outerCutoffAngle", glm::cos(glm::radians(30.f)));
 	prog.setUniform("Ia", glm::vec3(0.05, 0.05, 0.05)); //Ambient intensity
 	prog.setUniform("a", 1000.f); //Attenuation distance
 	prog.setUniform("f", 1.0f); //Attenuation falloff

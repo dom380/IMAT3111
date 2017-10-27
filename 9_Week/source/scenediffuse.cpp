@@ -94,7 +94,7 @@ void SceneDiffuse::render(QuatCamera camera)
 	//Set the plane's material properties in the shader and render
 	prog.setUniform("Kd", 0.7f, 1.0f, 0.7f);
 	prog.setUniform("Ks", 0.1f, 0.1f, 0.1f);
-	prog.setUniform("n", 50.0f);
+	prog.setUniform("specular", 30.0f);
 	plane->render();
 
 	//Now set up the teapot 

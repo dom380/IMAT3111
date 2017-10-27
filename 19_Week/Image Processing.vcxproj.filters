@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="source\Bitmap.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\drawable.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\gl_core_4_3.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\glslprogram.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\glutils.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\QuatCamera.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneDeferred.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Texture.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\vboplane.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\vboteapot.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\vbomesh.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneEdge.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneOil.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\defines.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Bitmap.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gl_core_4_3.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\glslprogram.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GLSupport.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\glutils.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\QuatCamera.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\scene.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SceneDeferred.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\teapotdata.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stb_image.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Texture.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vbomesh.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vboplane.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vboteapot.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drawable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SceneEdge.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SceneOil.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\deferred.vs">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="Shaders\deferred.fs">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="Shaders\edge.fs">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="Shaders\edge.vs">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="Shaders\oil.fs">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="Shaders\oil.vs">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="Shaders\kuwahara.fs">
+      <Filter>resources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{aaeb6074-bcaa-479b-ba04-df10b14ff1a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{4a42c7de-cd8d-40f3-ab8a-ecf91e88c309}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{c01ce779-420d-48cf-b36f-66ecda925d12}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

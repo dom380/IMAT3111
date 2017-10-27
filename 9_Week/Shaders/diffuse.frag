@@ -9,7 +9,7 @@ in vec3 viewPos;			//Direction to view port
 uniform vec3 Kd;            // Diffuse reflectivity
 uniform vec3 Ld;            // Diffuse light intensity
 uniform vec3 Ks;			// Specular reflection coefficent 
-uniform float n;			// specular exponent	
+uniform float specular;			// specular exponent	
 uniform vec3 Ia;			// Ambient intensity	
 uniform float a;			// Attenuation distance
 uniform float f;			// Attenuation falloff
@@ -33,7 +33,7 @@ void main() {
    //Calculate specular
    vec3 viewDir = normalize(viewPos);
    vec3 R = -reflect(L,N);
-   float Is = pow(max(dot(R,viewDir), 0.0),n);
+   float Is = pow(max(dot(R,viewDir), 0.0),specular);
    Is = clamp(Is, 0.0, 1.0);
 
    //calculate Fatt
